@@ -1,0 +1,35 @@
+* Work in progress.. *
+
+ansible-prj-qemu-emulate-raspbian-img
+========================================
+
+This Ansible project is an example on how to use the roles:
+* ansible-role-qemu-emulate-raspbian-img
+
+It will install and configures qemu, mount a raspbian image and run qemu to emulate raspbian.
+
+Requirements
+------------
+
+Ansible 1.6 or higher.
+
+Project variables
+-----------------
+
+It uses the variables defined in  ansible-role-qemu-emulate-raspbian-img/defaults/main.yml
+
+Install
+--------
+
+    git clone https://github.com/leewoboo/ansible-prj-qemu-emulate-rasbian-img
+
+License
+-------
+
+GPLv3
+
+Author Information
+------------------
+
+Lee Woboo
+

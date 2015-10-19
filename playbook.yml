@@ -1,0 +1,12 @@
+- hosts: localhost
+
+  roles:
+
+      - { role: ansible-role-qemu-emulate-raspbian-img,
+        }
+
+#- hosts: raspberry
+#  roles: 
+#     - { role: ansibe-role-raspbian-configure,
+#       }
+
